@@ -2,16 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -24,18 +15,6 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
 #imgMe{
   border-radius: 8px;
@@ -44,4 +23,53 @@
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
   width: 400px;
+  height: 400px;
+}
+
+#body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer{
+  margin-top: auto;
+}
+
+h1{
+  color:;
+  font-family:serif
+}
+
+#backgroud-image{
+  background-image: url('https://ohcbrands.com/wp-content/uploads/2018/04/69648590-header-wallpapers.jpg');
+}
+
+#body{
+  background-color: #0d1b1e;
+}
+
+#divp{
+  /* background-color: #7798ab; */
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+h1{
+  color: #e8dcb9;
+}
+
+.nav-link{
+  color: #e8dcb9 !important;
+}
+
+.navbar{
+  background-color: #1e3b41;
+}
+
+label{
+  color:#e8dcb9;
 }
