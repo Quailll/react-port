@@ -1,43 +1,27 @@
-import React from 'react';
+import React from "react";
+const navArray = [ "About Me", "Portfolio", "Contact Me", "Resume"];
 
-function Navbar(props) {
+function Navbar({currentPage, handlePageChange}) {
   return (
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">
-                About Me
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                Projects
-              </a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                Resume
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                Contact Me
-              </a>
-            </li>
+    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <div className="container-fluid">
+        <div className="" id="navbarSupportedContent">
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+            {navArray.map(function (navLink) {
+              return (
+                <li className="nav-item" key={navLink}>
+                  <button id='btn'
+                    aria-current="page"
+                    onClick={() => handlePageChange(navLink)}
+                    className={
+                      currentPage === navLink ? "nav-link active" : "nav-link"
+                    }
+                  >
+                    {navLink} |
+                  </button>
+                </li>
+              );
+            })}
           </ul>
         </div>
       </div>

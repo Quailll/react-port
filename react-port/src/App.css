@@ -24,6 +24,7 @@
   -o-border-radius: 8px;
   width: 400px;
   height: 400px;
+  box-shadow: 5px 5px 5px rgb(159, 155, 155);
 }
 
 #body{
@@ -36,17 +37,12 @@ footer{
   margin-top: auto;
 }
 
-h1{
-  color:;
-  font-family:serif
-}
-
 #backgroud-image{
-  background-image: url('https://ohcbrands.com/wp-content/uploads/2018/04/69648590-header-wallpapers.jpg');
+  background-image: url('https://cdn.wallpapersafari.com/67/76/qtpSIw.jpg');
 }
 
 #body{
-  background-color: #0d1b1e;
+  background-color: #dfe8ea;
 }
 
 #divp{
@@ -56,9 +52,11 @@ h1{
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+  
 }
 
-h1{
+#headname{
+  
   color: #e8dcb9;
 }
 
@@ -71,5 +69,43 @@ h1{
 }
 
 label{
-  color:#e8dcb9;
+  color:#666460;
+}
+
+.card {
+  background-color: #b8cdda;
+background-image: linear-gradient(315deg, #b8cdda 0%, #d5f2f2 56%);
+box-shadow: 5px 5px 5px rgb(159, 155, 155);
+
+}
+
+#name-edit {
+  box-shadow: 5px 5px 5px rgb(159, 155, 155);
+}
+
+#send:hover {
+  background-color: rgb(21, 173, 173);
+}
+h1 {
+  font-family:serif;
+  text-decoration: underline;
+}
+
+h4{
+  text-decoration: underline;
+}
+
+#btn {
+  background: none!important;
+  border: none;
+  padding: 2!important;
+  /*optional*/
+  /*input has OS specific font-family*/
+  color: #069;
+  cursor: pointer;
+}
+
+#card{
+  height: 300px;
+  width: 300px;
 }
