@@ -1,7 +1,7 @@
 {
+  "homepage": "https://Quailll.github.io/react-port",
   "name": "react-port",
   "version": "0.1.0",
-  "homepage": "https://Quailll.github.io/react-port",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -11,7 +11,6 @@
     "bootstrap": "^5.2.3",
     "bootstrap-icons": "^1.10.5",
     "dotenv": "^16.0.3",
-    "gh-pages": "^5.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.1",
@@ -42,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
