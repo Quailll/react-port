@@ -31,6 +31,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: #dfe8ea;
 }
 
 footer{
@@ -41,9 +42,7 @@ footer{
   background-image: url('https://cdn.wallpapersafari.com/67/76/qtpSIw.jpg');
 }
 
-#body{
-  background-color: #dfe8ea;
-}
+
 
 #divp{
   /* background-color: #7798ab; */
@@ -106,6 +105,34 @@ h4{
 }
 
 #card{
-  height: 300px;
-  width: 300px;
+  height: 480px;
+  width: 500px;
 }
+
+.links{
+  display: flex;
+}
+
+.sum{
+  font-size: 20px;
+  font-weight:500;
+  text-decoration: underline;
+}
+
+
+
+.imgEl{
+  width: 483px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+
+}
+
+.imgEl:hover{
+  box-shadow: 0 0 0 30px rgba(0, 0, 0, 0.9);
+  opacity: 0;
+}
+

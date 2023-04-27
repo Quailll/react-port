@@ -4,19 +4,25 @@ function Footer() {
   
   return (
     <footer class="d-flex justify-content-center ">
-      <ul class='d-flex'style={{listStyle: 'none'}}>
-        <li >
-      <a href="https://github.com/Quailll" class="m-2">
-        GitHub 
-      </a>
-      |
-      </li>
-      <li>
-      <a href="mailto:dphamada92@gmail.com" class="m-2">
-        Email
-      </a>
-      |
-      </li>
+      <ul class="d-flex" style={{ listStyle: "none" }}>
+        <li>
+          <a href="https://github.com/Quailll" class="m-2">
+            GitHub
+          </a>
+          |
+        </li>
+        <li>
+          <a href="mailto:dphamada92@gmail.com" class="m-2">
+            Email
+          </a>
+          |
+        </li>
+        <li>
+          <a href="#" class="m-2">
+            Linkedin
+          </a>
+          |
+        </li>
       </ul>
     </footer>
   );
