@@ -54,6 +54,13 @@ const projects = [
     summary:
       "A project that will help you pick out a genre based on the weather of that day.",
   },
+  {
+    name: "Film Fuse",
+    image:
+      "https://raw.githubusercontent.com/Quailll/project-3/main/images/home.png",
+    repo: "https://github.com/Quailll/project-3",
+    summary: "The project that allows you to make a review on your movies and search up movies."
+  },
 ];
 
 function Portfolio() {
