@@ -18,7 +18,10 @@ function Footer() {
           |
         </li>
         <li>
-          <a href="#" class="m-2">
+          <a
+            href="https://www.linkedin.com/in/dyllan-pham-ada-a51b6a276/"
+            class="m-2"
+          >
             Linkedin
           </a>
           |
